@@ -1,5 +1,5 @@
 # openai_art_gen
-Small program to programmatically generate images using OpenAI's DALLE-23 API
+Small program to programmatically generate images using OpenAI's DALLE-3 API
 
 # Prerequisites
 For this program to work, you must sign up for an API key from OpenAI.
