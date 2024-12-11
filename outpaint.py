@@ -3,12 +3,14 @@ import os
 
 api_key = os.environ["STABLE_DIFF_KEY"]
 
-# Set this prompyt to what you want added
+# Set this prompt to what you want the final image to be like.
 PROMPT = "An abstract image of painted thick puffy bright cloudy sky. Use a photorealistic painter style."
 # Full path to file you want to extend
 ORIGINAL_IMG = "D:/docs/tereya/images/house.png"
 # Full path of where the modified file should be written
 OUTPUT_IMG = "D:/docs/tereya/images/house_with_sky.png"
+LEFT = 1000
+UP = 1000
 
 
 response = requests.post(
@@ -18,13 +20,13 @@ response = requests.post(
         "accept": "image/*"
     },
     files={
-        "image": open(ORIGINAL_IMG, "rb"),
+        "image": open(ORIGINAL_IMG, "rb")
     },
     data={
         "prompt": PROMPT,
         "output_format": "png",
-        "left": 1000,
-        "up": 1000
+        "left": LEFT,
+        "up": UP
     },
 )
 
