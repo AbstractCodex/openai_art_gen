@@ -4,7 +4,7 @@ import os
 # Set this prompt to what you want added.
 PROMPT = "A medieval hero wearing a brass and fabric brigandine over chainmail."
 # Full path to file you want to make changes to.
-ORIGINAL_IMG = "D:/docs/tereya/images/cover-img.png"
+ORIGINAL_IMG = "D:/docs/tereya/images/cover-hero-armor-mask.png"
 # Full path of where the modified file should be written.
 OUTPUT_IMG = "D:/docs/tereya/images/cover-img-modified.png"
 

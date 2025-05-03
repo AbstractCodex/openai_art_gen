@@ -13,3 +13,6 @@ set the following environment variable:
 STABLE_DIFF_KEY
 to your secret key. Do not share this with anyone.
 Stable Diffusion charges to your account for each image generated. Check their webiste for rates and free promotions.
+
+# Installation
+pip install -r requirements.txt
